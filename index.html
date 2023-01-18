@@ -5,30 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Portfólio</title>
-    <style>
-      body {
-        background-color: #181818;
-        font-family: monospace;
-        color: #ff019a;
-        text-align: center;
-      }
-      h1 {
-        font-family: Arial, Helvetica, sans-serif;
-      }
-      strong {
-        font-size: 1.25em;
-      }
-      em {
-        text-decoration: underline;
-      }
-      .skills-itens {
-        font-size: 16px;
-        line-height: 2em;
-      }
-      hr {
-        border: 1px dashed #ff019a;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <ul>
@@ -36,30 +13,35 @@
       <li><a href="#skills">Habilidades</a></li>
       <li><a href="#recomendations">Recomendações</a></li>
     </ul>
-    <h1>Paulo Willian</h1>
-    <img
-      src="./assets/images/profile-photo.jpg"
-      alt="Imagem minha gerada por IA no estilo Synthwave "
-      width="300px"
-    />
+    <div class="me">
+      <h1>Paulo Willian</h1>
+      <h2>Sobre mim</h2>
+      <div class="about">
+        <img
+          src="./assets/images/profile-photo.jpg"
+          alt="Imagem minha gerada por IA no estilo Synthwave "
+          width="300px"
+        />
 
-    <h2 id="about">Sobre mim</h2>
-    <p>
-      Olá, meu nome é <strong>Paulo Willian</strong>, sou carioca, nascido e
-      criado aqui no <em>Rio de Janeiro - RJ</em> mesmo, e também é onde moro
-      atualmente.
-    </p>
+        <p>
+          Olá, meu nome é <strong>Paulo Willian</strong>, sou carioca, nascido e
+          criado aqui no <em>Rio de Janeiro - RJ</em> mesmo, e também é onde
+          moro atualmente.
+        </p>
+      </div>
+    </div>
 
     <br />
     <hr />
     <br />
-    <h2 id="skills">Habilidades</h2>
-    <ul>
-      <li class="skills-itens">HTMl</li>
-      <li class="skills-itens">CSS</li>
-      <li class="skills-itens">Suporte Windows</li>
-    </ul>
-
+    <div class="skills">
+      <h2>Habilidades</h2>
+      <ul>
+        <li class="skills-itens">HTMl</li>
+        <li class="skills-itens">CSS</li>
+        <li class="skills-itens">Suporte Windows</li>
+      </ul>
+    </div>
     <br />
     <hr />
     <br />
