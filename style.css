@@ -1,0 +1,22 @@
+body {
+  background-color: #181818;
+  font-family: monospace;
+  color: #ff019a;
+  text-align: center;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+strong {
+  font-size: 1.25em;
+}
+em {
+  text-decoration: underline;
+}
+.skills-itens {
+  font-size: 16px;
+  line-height: 2em;
+}
+hr {
+  border: 1px dashed #ff019a;
+}
